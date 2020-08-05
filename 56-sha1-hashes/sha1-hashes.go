@@ -15,6 +15,5 @@ func main() {
 	bs := h.Sum(nil)
 
 	fmt.Println(s)
-	fmt.Println(h)
 	fmt.Printf("%x\n", bs)
 }
